@@ -1,18 +1,77 @@
 version: 1
 extends:
-- https://raw.githubusercontent.com/impact-scholars/impact-scholars.github.io/v0.2.0/nexus.yml
-- https://raw.githubusercontent.com/impact-scholars/isp-actions-config/v0.2.0/isp-micropublication-2025.yml
+- https://raw.githubusercontent.com/impact-scholars/impact-scholars.github.io/v0.1.0/nexus.yml
+- https://raw.githubusercontent.com/impact-scholars/isp-actions-config/v0.1.0/isp-micropublication-2025.yml
 
 project:
-  authors: []
+  # Uncomment and fill when published
+  # doi: 10.5281/zenodo.XXXXXXX
+  # date: YYYY-MM-DD
+  authors:
+  - name: Karalasingham, S.
+    orcid: 0000-0002-4891-9767
+    affiliations:
+    - Neuromatch Academy, Neuromatch, Inc.
+    roles:
+    - Conceptualization
+    - Formal analysis
+    - Investigation
+    - Methodology
+    - Software
+    - Visualization
+    - Writing - original draft
+    - Writing - review & editing
+  - name: Shirodkar, T.P.
+    orcid: 0009-0001-3034-0087
+    affiliations:
+    - Neuromatch Academy, Neuromatch, Inc.
+    roles:
+    - Conceptualization
+    - Formal analysis
+    - Investigation
+    - Methodology
+    - Software
+    - Visualization
+    - Writing - original draft
+    - Writing - review & editing
+  - name: Fathollahi, A.
+    orcid: 0000-0002-4059-6756
+    affiliations:
+    - Neuromatch Academy, Neuromatch, Inc.
+    roles:
+    - Formal analysis
+    - Investigation
+    - Methodology
+    - Software
+    - Writing - original draft
+    - Writing - review & editing
+  - name: Ramaswamy, S.
+    orcid: 0000-0001-6642-7136
+    affiliations:
+    - Neural Circuits Laboratory, Faculty of Medical Sciences, Newcastle University, United Kingdom
+    roles:
+    - Conceptualization
+    - Methodology
+    - Supervision
+    - Writing - review & editing
+
   toc:
   - file: index.md
-  id:
-  title:
-  keywords: []
-  github:
+
+  id: isp-micropublication-nmap-celegans
+  title: "Neuro-Modulating Architecture Priors (NMAP) for Context-Dependent Reconfiguration of Locomotory Circuits in Caenorhabditis elegans"
+  short_title: "NMAP for C. elegans Locomotory Circuits"
+  keywords:
+  - neuromodulation
+  - C. elegans
+  - locomotion
+  - neural circuit architectural priors
+  - reinforcement learning
+  - gait switching
+  - central pattern generator
+  github: https://github.com/ShirodkarTejas/karalasingham-2026-nmap-celegans
   bibliography:
   - bib.bib
-
-site:
-  template: https://raw.githubusercontent.com/impact-scholars/myst-theme/v0.2.0/.deploy/book/template.yml
+  # downloads:
+  # - file: supplementary-material.zip
+  #   title: Supplementary Material

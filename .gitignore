@@ -1,6 +1,13 @@
 # MyST build outputs
 _build/
 
+# Upstream in-progress larger-paper source material (reference only; used
+# locally by scripts/make_figure.py to regenerate the figure)
+source/
+
+# Local figure-build tooling (not needed in the public-facing repo)
+scripts/
+
 # Python
 __pycache__/
 *.py[cod]
