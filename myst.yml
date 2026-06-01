@@ -1,14 +1,14 @@
 version: 1
 extends:
-- https://raw.githubusercontent.com/impact-scholars/impact-scholars.github.io/v0.1.0/nexus.yml
-- https://raw.githubusercontent.com/impact-scholars/isp-actions-config/v0.1.0/isp-micropublication-2025.yml
+- https://raw.githubusercontent.com/impact-scholars/impact-scholars.github.io/v0.2.0/nexus.yml
+- https://raw.githubusercontent.com/impact-scholars/isp-actions-config/v0.2.0/isp-micropublication-2025.yml
 
 project:
   # Uncomment and fill when published
   # doi: 10.5281/zenodo.XXXXXXX
   # date: YYYY-MM-DD
   authors:
-  - name: Karalasingham, S.
+  - name: Sagthitharan Karalasingham
     orcid: 0000-0002-4891-9767
     affiliations:
     - Neuromatch Academy, Neuromatch, Inc.
@@ -21,7 +21,7 @@ project:
     - Visualization
     - Writing - original draft
     - Writing - review & editing
-  - name: Shirodkar, T.P.
+  - name: Tejas Pradeep Shirodkar
     orcid: 0009-0001-3034-0087
     affiliations:
     - Neuromatch Academy, Neuromatch, Inc.
@@ -34,7 +34,7 @@ project:
     - Visualization
     - Writing - original draft
     - Writing - review & editing
-  - name: Fathollahi, A.
+  - name: Mohammad Amin Fathollahi
     orcid: 0000-0002-4059-6756
     affiliations:
     - Neuromatch Academy, Neuromatch, Inc.
@@ -45,7 +45,7 @@ project:
     - Software
     - Writing - original draft
     - Writing - review & editing
-  - name: Ramaswamy, S.
+  - name: Srikanth Ramaswamy
     orcid: 0000-0001-6642-7136
     affiliations:
     - Neural Circuits Laboratory, Faculty of Medical Sciences, Newcastle University, United Kingdom
@@ -69,7 +69,7 @@ project:
   - reinforcement learning
   - gait switching
   - central pattern generator
-  github: https://github.com/ShirodkarTejas/karalasingham-2026-nmap-celegans
+  github: https://github.com/impact-scholars/karalasingham-2026-nmap-celegans
   bibliography:
   - bib.bib
   # downloads:
