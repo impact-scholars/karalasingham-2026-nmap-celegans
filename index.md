@@ -6,8 +6,6 @@ acknowledgments: |
     This work was supported by the Neuromatch Impact Scholar Program. We thank Dr. Srikanth Ramaswamy (Neural Circuits Laboratory, Newcastle University) for mentorship, and the program sponsors and teaching assistants whose contributions do not meet the criteria of any authorship role.
 ---
 
-# Description
-
 ## Background
 
 Biological locomotion adapts across mechanical contexts through neuromodulation. In *C. elegans*, dopamine is necessary for crawling and serotonin for swimming [@vidalgadea2011]; dopamine-deficient mutants exhibit unstable locomotion rates [@omura2012]. Whereas hardwired synapses support point-to-point communication, neuromodulators act as wireless broadcasts that dynamically reconfigure entire network states [@randi2023] — a distinction that integrated neuromechanical models alone cannot capture [@boyle2012]. Neural Circuit Architectural Priors (NCAP) embed sparse connectivity, sign constraints, and intrinsic dynamics as differentiable priors for embodied control [@bhattasali2022]. While effective for single-substrate locomotion, NCAP captures only the hardwired synaptic layer with fixed weights and cannot reconfigure motor output across mechanical contexts. We close this architectural gap with **Neuro-Modulating Architecture Priors (NMAP)**, in which a learned modulatory layer sits on top of NCAP and a hierarchical manager selects gait from proprioception alone.
