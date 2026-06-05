@@ -59,4 +59,4 @@ NMAP demonstrates that a learned dopamine/serotonin-analogue modulatory layer, c
 
 ## Code availability
 
-The code used in this study is publicly available at <https://github.com/ShirodkarTejas/nma_nai_on> and <https://github.com/sagthi/NMAP>.
+The code used in this study is publicly available at <https://github.com/ShirodkarTejas/nma_nai_on> and <https://github.com/sagthi/NMAP>. Published via [Impact Scholars](https://github.com/impact-scholars/karalasingham-2026-nmap-celegans).
