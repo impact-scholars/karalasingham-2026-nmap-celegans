@@ -1,5 +1,8 @@
 ---
 title: "Neuro-Modulating Architecture Priors (NMAP) for Context-Dependent Reconfiguration of Locomotory Circuits in Caenorhabditis elegans"
+short_title: "NMAP for C. elegans Locomotory Circuits"
+options:
+    breakable_figures: true
 abstract: |
     *Caenorhabditis elegans* switches between distinct crawling and swimming gaits via extrasynaptic dopamine and serotonin signalling, yet existing neuro-inspired architectures such as Neural Circuit Architectural Priors (NCAP) encode only the hardwired synaptic layer with fixed weights, precluding context-dependent reconfiguration. We introduce **Neuro-Modulating Architecture Priors (NMAP)**: a three-layer extension that pairs the NCAP central pattern generator with a GRU context encoder emitting a dopamine/serotonin-analogue modulatory vector and a hierarchical manager that infers substrate from proprioceptive phase-lag alone. Trained with PPO in a progressive water–land MuJoCo environment, NMAP produces a bistable amplitude–frequency separation, four discrete oscillator-period clusters tracking the curriculum, and qualitatively distinct kymographs per substrate. NCAP, under the same curriculum, collapses toward a single compromise gait. Neuromodulatory priors are a necessary architectural extension beyond hardwired connectivity for context-adaptive embodied AI.
 acknowledgments: |
@@ -59,4 +62,4 @@ NMAP demonstrates that a learned dopamine/serotonin-analogue modulatory layer, c
 
 ## Code availability
 
-The code used in this study is publicly available at <https://github.com/ShirodkarTejas/nma_nai_on> and <https://github.com/sagthi/NMAP>.
+The code used in this study is publicly available at <https://github.com/ShirodkarTejas/nma_nai_on> and <https://github.com/sagthi/NMAP>. Published via [Impact Scholars](https://github.com/impact-scholars/karalasingham-2026-nmap-celegans).
