@@ -4,9 +4,6 @@ extends:
 - https://raw.githubusercontent.com/impact-scholars/isp-actions-config/v0.2.0/isp-micropublication-2025.yml
 
 project:
-  # Uncomment and fill when published
-  # doi: 10.5281/zenodo.XXXXXXX
-  # date: YYYY-MM-DD
   authors:
   - name: Sagthitharan Karalasingham
     orcid: 0000-0002-4891-9767
@@ -58,7 +55,7 @@ project:
   toc:
   - file: index.md
 
-  id: isp-micropublication-nmap-celegans
+  id: isp-karalasingham-2026-nmap-celegans
   title: "Neuro-Modulating Architecture Priors (NMAP) for Context-Dependent Reconfiguration of Locomotory Circuits in Caenorhabditis elegans"
   short_title: "NMAP for C. elegans Locomotory Circuits"
   keywords:
@@ -72,6 +69,3 @@ project:
   github: https://github.com/impact-scholars/karalasingham-2026-nmap-celegans
   bibliography:
   - bib.bib
-  # downloads:
-  # - file: supplementary-material.zip
-  #   title: Supplementary Material
