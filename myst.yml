@@ -67,6 +67,11 @@ project:
   - gait switching
   - central pattern generator
   github: https://github.com/impact-scholars/karalasingham-2026-nmap-celegans
+  options:
+    youtube: https://youtu.be/Sud1Lw9I3o4?t=287
+  downloads:
+  - title: Seminar Presentation
+    url: https://youtu.be/Sud1Lw9I3o4?t=287
   bibliography:
   - bib.bib
   doi: 10.5281/zenodo.20606461
